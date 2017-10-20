@@ -32,7 +32,7 @@ This will:
 
 * Install application dependencies
 * Create your database
-* Install Spina CMS through an interactive prompt
+* Install Spina CMS via an interactive prompt
 
 You’ll want to select the `boxcar` theme during the Spina install (this
 should be the default choice). You can modify or replace this theme later.
