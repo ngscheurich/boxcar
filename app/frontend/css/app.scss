@@ -1,0 +1,25 @@
+@import "tachyons";
+
+$bun: #ece1c3;
+
+body {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+h1 {
+  font: 400 4rem/1 "Chewy";
+}
+
+code {
+  background-color: $bun;
+  border-radius: 3px;
+  opacity: 0.8;
+  padding: 0.5rem 0.5rem 0.3rem;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
