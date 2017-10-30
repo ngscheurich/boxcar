@@ -14,8 +14,6 @@
 
 ## Install
 
-## Install
-
 First make sure you have the following installed:
 
 * Ruby 2.4.x
@@ -34,7 +32,7 @@ This will:
 
 * Install application dependencies
 * Create your database
-* Install Spina CMS through an interactive prompt
+* Install Spina CMS via an interactive prompt
 
 You’ll want to select the `boxcar` theme during the Spina install (this
 should be the default choice). You can modify or replace this theme later.
@@ -84,7 +82,7 @@ Boxcar can easily be deployed to [Heroku](https://www.heroku.com/), assuming
 you have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 installed.
 
-First, run the `bin/heroku_setup your-app-name`-this script will set you up with
+First, run the `bin/heroku_setup your-app-name`; this script will set you up with
 two Heroku apps (one for staging and one for production) with Heroku
 PostgreSQL instances attached and in a development pipeline.
 
@@ -105,7 +103,6 @@ changes to workflow or tooling you should fork the project.
 Small note: If editing the README, please conform to the
 [standard-readme](https://github.com/RichardLitt/standard-readme)
 specification.
-
 
 ## License
 
