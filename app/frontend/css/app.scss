@@ -1,6 +1,7 @@
 @import "tachyons";
 
 $bun: #ece1c3;
+$tomato: #eb4a43;
 
 body {
   background-color: #fff;
@@ -21,5 +22,25 @@ code {
 
   &:hover {
     opacity: 1;
+  }
+}
+
+small {
+  bottom: 4rem;
+  font-weight: bold;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  a {
+    border-bottom: 1px solid;
+    color: rgba(0, 0, 0, 0.6);
+    color: $tomato;
+    text-decoration: none;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }

@@ -1,35 +1,30 @@
 module.exports = {
   files: {
     javascripts: {
-      joinTo: 'app.js'
+      joinTo: "app.js"
     },
     stylesheets: {
-      joinTo: 'app.css'
+      joinTo: "app.css"
     },
     templates: {
-      joinTo: 'app.js'
+      joinTo: "app.js"
     }
   },
 
   plugins: {
     babel: {
-      presets: ['es2015']
+      presets: ["env", "react"]
     },
     sass: {
       options: {
-        includePaths: [
-          'node_modules/tachyons-sass'
-        ]
+        includePaths: ["node_modules/tachyons-sass"]
       }
     }
   },
 
   paths: {
-    watched: [
-      'app/frontend'
-    ],
-
-    public: 'public/assets'
+    watched: ["app/frontend"],
+    public: "public/assets"
   },
 
   conventions: {
@@ -38,9 +33,9 @@ module.exports = {
 
   npm: {
     globals: {
-      $: 'jquery',
-      jQuery: 'jquery',
-      breakfast: 'breakfast-rails'
+      $: "jquery",
+      jQuery: "jquery",
+      breakfast: "breakfast-rails"
     }
   }
-}
+};
