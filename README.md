@@ -82,7 +82,7 @@ Boxcar can easily be deployed to [Heroku](https://www.heroku.com/), assuming
 you have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 installed.
 
-First, run the `bin/heroku_setup your-app-name`; this script will set you up with
+First, run `bin/heroku_setup your-app-name`; this script will set you up with
 two Heroku apps (one for staging and one for production) with Heroku
 PostgreSQL instances attached and in a development pipeline.
 
