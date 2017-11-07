@@ -67,7 +67,7 @@ Boxcar also comes loaded with some frontend libraries set up and ready for
 action:
 
 * [Turbolinks](https://github.com/turbolinks/turbolinks)
-* [Vue.js](https://vuejs.org/)
+* [React](https://reactjs.org/)
 * [Tachyons](http://tachyons.io/)
 
 Finally, some tools are configured and in place to help check your work:
