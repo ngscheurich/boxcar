@@ -25,17 +25,14 @@ After cloning the application and changing to its directory, you’ll want to ru
 the setup script:
 
 ```
-% bin/setup
+% bin/setup AppName app_name
 ```
 
 This will:
 
 * Install application dependencies
 * Create your database
-* Install Spina CMS via an interactive prompt
-
-You’ll want to select the `boxcar` theme during the Spina install (this
-should be the default choice). You can modify or replace this theme later.
+* Inject your app name into files where appropriate
 
 That’s all there is to it. Spin up a server on http://localhost:3000 and
 start hacking:
@@ -54,8 +51,8 @@ It’s powered by a some awesome open source projects:
 
 * [Ruby on Rails](http://rubyonrails.org/), a web application framework
   that you may have heard of.
-* [Spina](https://github.com/denkGroot/Spina), a lovely CMS for Rails that
-  your clients can log into to manage parts of their website.
+* [Trestle](https://trestle.io/), a powerful, customizable admin framework
+  that makes content management a snap.
 * [Breakfast](http://breakfast.devlocker.io/), a project that integrates
   modern JavaScript tooling (by way of [Brunch](http://brunch.io/)) into
   your Rails app.
@@ -68,7 +65,7 @@ action:
 
 * [Turbolinks](https://github.com/turbolinks/turbolinks)
 * [React](https://reactjs.org/)
-* [Tachyons](http://tachyons.io/)
+* [Tailwind CSS](https://tailwindcss.com/)
 
 Finally, some tools are configured and in place to help check your work:
 
