@@ -1,6 +1,4 @@
-# Boxcar
-
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+# 🚋 Boxcar
 
 > You’re not punk, and I’m telling everyone.
 
@@ -97,10 +95,8 @@ on what I use at [work](http://theadvocate.com) to get projects built
 quickly and with a high level of confidence. If you’re looking to make big
 changes to workflow or tooling you should fork the project.
 
-Small note: If editing the README, please conform to the
-[standard-readme](https://github.com/RichardLitt/standard-readme)
-specification.
+If you do submit a PR, please adhere to the
+[code of conduct](https://github.com/ngscheurich/boxcar/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
-
-MIT © 2017 N. G. Scheurich
+Boxcar is released under the [MIT License](https://github.com/ngscheurich/boxcar/blob/master/LICENSE).
