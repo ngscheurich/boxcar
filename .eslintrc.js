@@ -1,11 +1,11 @@
 module.exports = {
   root: true,
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
-    sourceType: "module"
+    sourceType: 'module'
   },
-  plugins: ["html", "prettier"],
+  plugins: ['html', 'prettier'],
   rules: {
-    "prettier/prettier": "error"
+    'prettier/prettier': 'error'
   }
 };
