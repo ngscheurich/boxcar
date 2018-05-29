@@ -1,4 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  get "/home", to: "pages#home"
-  mount Spina::Engine => "/"
+  root to: "pages#home"
 end
