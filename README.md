@@ -1,5 +1,7 @@
 # 🚋 Boxcar
 
+[![Depfu](https://img.shields.io/depfu/ngscheurich/boxcar.svg?style=flat-square)](https://depfu.com/repos/ngscheurich/boxcar?project=Bundler)
+
 > You’re not punk, and I’m telling everyone.
 
 ## Table of Contents
