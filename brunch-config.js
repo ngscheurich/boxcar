@@ -11,12 +11,6 @@ module.exports = {
     }
   },
 
-  plugins: {
-    babel: {
-      presets: ['env', 'react']
-    }
-  },
-
   paths: {
     watched: ['app/frontend'],
     public: 'public/assets'
