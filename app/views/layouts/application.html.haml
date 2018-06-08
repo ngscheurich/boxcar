@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %script{async: true, src: "https://www.googletagmanager.com/gtag/js?id=UA-"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-');
+    %meta{charset: "utf-8"}
+    %meta{"http-equiv" => "x-ua-compatible", content: "ie-edge"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1, shrink-to-fit=no"}
+    %meta{name: "description", content: "Boxcar"}
+    = csrf_meta_tags
+    %title Boxcar
+    = javascript_pack_tag "app", "data-turbolinks-track": "reload"
+    = stylesheet_pack_tag "app", "data-turbolinks-track": "reload"
+  %body
+    #app
+      = yield

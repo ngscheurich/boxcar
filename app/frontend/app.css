@@ -1,0 +1,11 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #222;
+}
+
+body {
+  color: var(--black);
+}
