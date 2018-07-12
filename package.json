@@ -8,7 +8,7 @@
     "@rails/webpacker": "3.5",
     "actioncable": "^5.1.4",
     "axios": "^0.17.0",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-preset-react": "^6.24.1",
     "prettier": "^1.13.5",
     "prop-types": "^15.6.1",
