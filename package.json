@@ -10,7 +10,7 @@
     "axios": "^0.17.0",
     "babel-eslint": "^8.2.3",
     "babel-preset-react": "^6.24.1",
-    "prettier": "^1.13.5",
+    "prettier": "^1.13.7",
     "prop-types": "^15.6.1",
     "react-dom": "^16.4.1",
     "react": "^16.4.1",
