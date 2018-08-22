@@ -4,6 +4,8 @@ AllCops:
     - node_modules/**/*
     - config/**/*
     - bin/*
+    - app/admin/auth/*
+    - spec/*_helper.rb
 
 Rails:
   Enabled: true
