@@ -2,8 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "devise"
-gem "haml-rails", "~> 1.0"
 gem "jbuilder", "~> 2.5"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.7"
