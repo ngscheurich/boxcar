@@ -63,4 +63,6 @@ Rails.application.configure do
   config.middleware.insert_after ActionDispatch::Static,
                                  Rack::LiveReload,
                                  no_swf: true
+
+  config.active_storage.service = :local
 end
